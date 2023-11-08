@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500& &family=Rubik:ital,wght@0,400;0,600;1,500&display=swap');
+h1{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 143px;
+    letter-spacing: 1.5%;
+    text-align: center;
+    color: #FF018F;
+    margin-top: -10%;
+}
+h2{
+    color: #4700FF;
+    font-family: 'Kanit','sans-serif';
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    line-height: 91.52px;
+    letter-spacing: 5.5%;
+
+}
+p{
+    font-family: 'Kanit','sans-serif';
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 45.76px;
+    letter-spacing: 1.5%;  
+    padding: 50px;
+}
+.page2_span{
+    display: inline-block;
+    width: 488px;
+    height: 111px;
+    background-color: #F3CB3B;
+    margin-top: -40px;
+    position: relative;
+    z-index: -1;
+}
+.page2_span2{
+    display: inline-block;
+    width: 518px;
+    height: 566px;
+    background-color: #F3CB3B;
+    margin-top: -80%;
+    position: relative;
+    z-index: -1;
+}
+.page2_span3{
+    display: inline-block;
+     width: 635px;
+     position: relative;
+     height: 180px;
+     margin-top: -30%;
+     background-color: #F3CB3B;
+     z-index: -1;
+}
+.page2_span4{
+    width: 575px;
+     display: inline-block;
+     height: 351px;
+     background-color: #F3CB3B;
+     margin-top: -50%;
+     position: relative;
+     z-index: -1;
+}
+.page2_span5{
+    width: 578px;
+    display: inline-block;
+    height: 366px;
+    background-color: #F3CB3B;
+    position: relative;
+     z-index: -1;
+     margin-top: -40%;
+}
+.page2_span6{
+    width: 450px;
+     display: inline-block;
+     height: 351px;
+     background-color: #F3CB3B;
+     margin-top: -50%;
+     position: relative;
+     z-index: -1;
+}

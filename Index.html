@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+      <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <title>Vistaar </title>
+    <link rel="stylesheet" href="index.css">
+    <!-- <style>
+       
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500& &family=Rubik:ital,wght@0,400;0,600;1,500&display=swap');
+.container{
+    position: relative;
+    width: 1440px;
+    top: 0.08px;
+    background-color: #5BD7E8;
+}
+
+.div2{
+
+    width:1330px;
+    height:1030px;
+    top:900px;
+    background-color: #FF007F;
+}
+.imgg{
+    display: grid;
+}
+.make{
+    display: grid;
+    position:absolute;
+    top: 200px;
+    left: 70px;
+}
+hr{
+    margin-top: 60px;
+    color: #000; 
+    background-color: #000;
+
+}
+h3{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 35px;
+}
+.mar{
+    animation: var(--direction) var(--marquee-speed) linear infinite;
+}
+.mar:hover{
+    animation-play-state: paused;
+}
+@keyframes scroll-left {
+        0% {
+            transform: translateX(0%);
+        
+        }
+        50% {
+            transform: translateX(-5%);
+        }
+
+    }
+h2{
+    font-weight: 400;
+    font-size: 70px;
+    font-family: Rubik;
+    line-height: 95.9px;
+    letter-spacing: 2%;
+    color: #ffff;
+}
+#shape{
+   position: relative;
+   top: 20%;
+   left: 30%;
+    height: 480px;
+    width: 460px;
+    background-color: #8B45E3;
+    border-radius: 621px 671px 279px 717px; 
+   
+
+}
+
+@keyframes animate {
+0%{background-image: url('person.png');background-color: #8B45E3;}
+20%{background-image: url('person2.png');background-color: #E4572E;}
+40%{background-image: url('person3.png');background-color: #2A9BCB;}
+60%{background-image: url('person4.png');background-color:  #8B45E3;}
+80%{background-image: url('person5.png');background-color: #F2BF3C;}
+100%{background-image: url('person6.png');background-color: #60C9A3;}
+}
+#shape{
+animation: animate 20s infinite linear forwards;
+background-image: url('person.png'),url('person.png');
+background-size:auto 100%,cover;
+background-repeat:no-repeat,repeat-x;
+background-position: 100% 100%,50% 50%;
+}
+.perimg{
+    position: absolute;
+    top:10px;
+    left: 20px;   
+}
+.perrot{
+    margin-left: -65px
+}
+#img1{
+    position: absolute;
+    left: 25%;
+    top: 8%;
+}
+
+#h33{
+    font-family: 'Kanit', sans-serif;
+    font-weight:700;
+    line-height: 45.84px;
+    font-size: 48px;
+}
+#know-more{
+    width: 300px;
+    margin-top: 25%;
+    margin-left: 40%;
+    padding: 9px;
+    border-radius: 30px 30px 30px 30px ;
+    background-color: yellow;
+    font-weight: 700;
+    text-align: center;
+}
+a {
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+}
+.section3{
+    width: 1345px;
+    margin-left: 100px;
+    height: 887px;
+    background-color: #F2DAFB;
+}
+h2{
+    transform: rotate(-90deg);
+    position: absolute;
+    font-weight: 400;
+    font-family: 'Kanit', sans-serif;
+    color: #9E04C5;
+    font-size: 64px;
+    line-height: 91.52px;
+    letter-spacing: 4%;
+   }
+.col{
+    max-width:20% !important;
+    margin-top: 300px;
+    margin-left: 35px;
+}
+.col-6{
+  
+   width:  80% !important;
+   height:100% ;
+}
+
+ 
+.swiper-wrapper{
+  width: 100%;
+  height: 35em;
+  display: flex;
+  align-items: center;
+  height: auto; 
+  margin-left: -20px;
+}
+.swiper-slide:not(.swiper-slide-active,.card_title){
+  width: 250px;
+  writing-mode: tb;
+}
+.swiper-slide:not(){
+  display: none;
+}
+.swiper-slide-active>.card_image{
+  margin-left: -120px;
+}
+.swiper-slide-active>.card_content{
+  margin-left: -370px;
+}
+
+
+.card{
+  width: 495px;
+    height: auto;
+    top: 70px;
+    padding: 2em 1em ;
+    left: 30px;
+    border-radius: 2em  ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 2em ;
+    background-color: #9E04C5;
+    margin: 4em;
+}
+.card_image img{
+  object-fit: cover;
+  margin-right: -120px;
+ 
+}
+
+ .card_content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
+  margin-right: -390px;
+}
+.card_title{
+  font-size: 1.5em;
+  font-weight: 500;
+  position: relative;
+  top: 0em;
+  font-family: 'Kanit', sans-serif; 
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 69.12px;
+  letter-spacing: 1.5%;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+.card_text{
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 1em 0 ;
+  font-family: 'Kanit', sans-serif;  
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34.32px;
+  letter-spacing: 1%;
+  color: #FFFFFF;
+}
+
+.section4{
+    width: 1345px;
+    margin-left: -275px;
+    height: 761px;
+    background-color: #F2DAFB;
+  background-color: #F3CB3B;
+}
+
+.section4 h1{
+  font-family: 'Kanit', sans-serif; 
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 100.1px;
+  letter-spacing: 1.5%;
+  text-align: center;
+  color: #2F42DC;
+  text-shadow: -5px -2px #FFFFFf;
+  letter-spacing: 1.5%;
+
+}
+
+
+.section5{
+  width: 1346px;
+  height: 807px;
+  background-color: #4700FF;
+  position: relative;
+}
+
+.div5img{
+  padding-left: 100px;
+}
+
+#section1 h1{
+  text-align: center;
+  font-family: 'Kanit', sans-serif; 
+  font-weight: 700;
+  color: #3D159F;
+  font-size: 36px;
+  line-height: 51.48%;
+}
+#section2 h1{
+  text-align: center;
+  font-family: 'Kanit', sans-serif; 
+  font-weight: 700;
+  color: #3D159F;
+  font-size: 40px;
+  line-height: 47.2px;
+  margin-left: 3%;
+}
+
+#section3 h1{
+  text-align: center;
+  font-family: 'Kanit', sans-serif; 
+  font-weight: 700;
+  color: #3D159F;
+  font-size: 40px;
+  line-height: 47.2px;
+  margin-left: 3%;
+  padding: 6%;
+}
+
+.section3_p{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34.32px;
+  text-align: center;
+  letter-spacing: 5.5%;
+  margin-top: -35px;
+}
+
+#section4 h1{
+  text-align: center;
+  font-family: 'Kanit', sans-serif; 
+  font-weight: 700;
+  color: #3D159F;
+  font-size: 40px;
+  padding: 6%;
+  line-height: 47.2px;
+  margin-left: 3%; 
+  letter-spacing: 1.5%;
+}
+
+#section4 p{
+  font-family: 'Kanit', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34.32px;
+  letter-spacing: 5.5%;
+  margin:auto 5%;
+  color: #3D159F;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+#section5 h1{
+  text-align: center;
+  font-family: 'Kanit', sans-serif; 
+  font-weight: 700;
+  color: #3D159F;
+  font-size: 40px;
+  padding: 6%;
+  line-height: 47.2px;
+  margin-left: 3%; 
+}
+
+.input_text{
+  border-radius: 10px;
+  border: 3px solid  #4700FF;
+  margin:auto 5%;
+}
+
+.input_text_1{
+  width: 300px;
+  height: 153px;
+  border-radius: 15px;
+  border: 3px solid #4700FF;
+  margin: auto 5%;
+}
+
+.get_img{
+  margin-top: -40%;
+    margin-left: 50%;
+}
+
+.section5 button
+{
+  font-family: 'Kanit', sans-serif; 
+  font-weight: 600;
+  font-size: 24px; 
+  width: 180px;
+  height: 50px;
+  margin: auto 40%;
+  background-color: #4700FF;
+  color:#ffff
+;
+
+}
+.numberr{
+  margin-left: 40%;
+    width: 137px;
+    font-size: 37px;
+    height: 70px;
+    text-align: center;
+}
+
+
+
+ .tabs {
+            width: 600px;
+        }
+
+        .tab {
+            padding: 20px;
+            cursor: pointer;
+            font-family: 'Kanit', sans-serif;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 45.76px;
+            text-align: start;
+            color: #ffff;
+            padding-left: 140px;
+            filter: blur(1px);  
+        }
+
+        .tab.active {
+            font-weight: 700;
+            filter: none;  
+            content: "\2713"; 
+
+        }
+        
+
+        .content {
+            flex: 1;
+            padding: 10px;
+          
+        }
+
+        .section_5 {
+            display: none;
+        }
+
+        .section_5.active {
+            display: block;
+            background-color: #ffff;
+            border: 1px solid black;
+            height: 768px;
+             border-radius: 30px;
+            padding: 15px;
+        }
+
+.col-xl-4 p{
+          font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        background:#AA98D5;
+        border-radius: 20px;
+        width: 166px;
+        height: 166px;
+    
+}
+.col-xl-4 p img{
+  padding: 10px;
+  
+}
+.spamm{
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34.32px;
+}
+
+
+
+.calendar-container {
+    background: #fff;
+    width: 400px;
+    border-radius: 10px;
+    margin: auto 22%;
+    border-radius: 80px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+ 
+.calendar-container header {
+    display: flex;
+    align-items: center;
+    padding: 4px 40px 1px;
+    justify-content: space-between;
+}
+ 
+header .calendar-navigation {
+    display: flex;
+}
+ 
+header .calendar-navigation span {
+    height: 38px;
+    width: 38px;
+    margin: 0 1px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    user-select: none;
+    color: #aeabab;
+    font-size: 1.9rem;
+}
+ 
+.calendar-navigation span:last-child {
+    margin-right: -10px;
+}
+ 
+header .calendar-navigation span:hover {
+    background: #f2f2f2;
+}
+ 
+header .calendar-current-date {
+    font-weight: 500;
+    font-size: 1.45rem;
+}
+ 
+.calendar-body {
+    padding: 20px;
+}
+ 
+.calendar-body ul {
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+}
+ 
+.calendar-body .calendar-dates {
+    margin-bottom: 20px;
+}
+ 
+.calendar-body li {
+    width: calc(100% / 7);
+    font-size: 1.07rem;
+    color: #414141;
+}
+ 
+.calendar-body .calendar-weekdays li {
+    cursor: default;
+    font-weight: 500;
+}
+ 
+.calendar-body .calendar-dates li {
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+ 
+.calendar-dates li.inactive {
+    color: #aaa;
+}
+ 
+.calendar-dates li.active {
+    color: #fff;
+}
+ 
+.calendar-dates li::before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+ 
+.calendar-dates li.active::before {
+    background: #6332c5;
+}
+ 
+.calendar-dates li:not(.active):hover::before {
+    background: #e4e1e1;
+}
+
+.section6{
+  width: 1350px;
+    height: 250px;
+    background-color: #000;
+}
+.section6 .col-md-6{
+  width: 40% !important;
+}
+.section6 p{
+  color: #ffff;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.section6 .pp{
+  color: #ffff;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+    </style> -->
+</head>
+<body>
+    <div class="container section1  ">
+        <div class="imgg">
+     <img src="Page 1/A.png"/>
+     <img style=" margin: -25px 30px 2px;"src="Page 1/activatr.png"/>
+     </div>
+     <div class="row">
+        <div class="col-sm">
+     <div class="make">
+     <img src="page 1/Make your.png"/>
+     <img style="margin: -60px 0px 0px 46px;" src="Page 1/image 82.png"/>
+     <img style="margin: -370px 500px;" src="Page 1/Rectangle.png"/>
+     <img style="margin-top: -50px;" src="Page 1/Standout.png"/>
+    </div>
+</div>
+    <div class="col-sm">
+        <img style="margin-right: -110px;" src="Page 1/7190293 1.png"/>
+    </div>
+    </div>
+    <div>    
+        <div style="text-align: center;margin-top: 50px;">
+        <img src="Page 1/Unleash Your Brand's Power!.png"/>
+    </div>
+    <img style="margin: -120px 465px;" src="Page 1/scribble _ loop, curl, arrow, turn, downward, down, move_md-PhotoRoom 1.png"/>
+    </div>
+    <hr size="7" />  
+    <div class="mar" style="--marquee-speed: 3s; --direction:scroll-left" role="marquee">
+       <ul  style="display: flex;justify-content: space-around;list-style: none;" >
+        <li> <h3 style="color:#9E04C5;">DRIVE SALES</h3></li>
+        <li> <h3 style="color:#4700FF;"> GRAB ATTENTION</h3></li>
+        <li><h3 style="color:#FF018F;">IGNITE  BUZZ</h3></li>
+        <li> <h3 style="color:#9E04C5;">DRIVE SALES</h3></li>
+     </ul>
+    
+    </div> 
+    <hr size="7" style="margin-top: 14px;"/>
+     </div>
+
+     <div class="container section 2">
+        <div class="div2">
+           <div style="text-align: center;"> 
+            <img style="margin-top:30px" src="page 2/Campaign ideas.png"/>
+           </div>
+           <div id="shape">
+            <img class="perrot" id="img1" src=""/>
+             </div>
+             <div>
+                <h3 id="h33" style="position: absolute;top: 80%;left: 40%;">Gamification</h3>
+             </div>
+             <!-- <button id="know-more"><a href="page2.html" target="_blank">Know More</a> </button>   -->
+            <div id="know-more">
+               <a href="page2.html" target="_blank">Know more</a>
+              </div>
+             </div>
+
+     </div>
+     <div class=" section3">
+        <div class="row">
+            <div class="col">
+            <h2>METRIC<br><span style="margin: -55px;"> MEASURES</span></h2> 
+            </div>
+            <div class="col-6">
+              <div class=" swiper mySwiper " style="margin-top: -80px;">
+                <div class="swiper-wrapper">
+
+                  <div class="card swiper-slide">
+                    <div class="card_image">
+                      <img src="Page 3/Rectangle (5).png"/>
+                    </div>
+
+                    <div class="card_content">
+                    <span class="card_title">Impression</span>
+                    <p class="card_text">The number of people who have seen your <br>campaign</p>  
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide">
+                    <div class="card_image">
+                      <img src="Page 3/Rectangle (6).png"/>
+                    </div>
+
+                    <div class="card_content">
+                    <span class="card_title">Engagement</span>
+                    <p class="card_text">The level of interaction your campaign <br>has received, such as clicks, likes,<br> shares, and comments</p>  
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide">
+                    <div class="card_image">
+                      <img style="width: 380px;" src="Page 3/Rectangle (7).png"/>
+                    </div>
+
+                    <div class="card_content">
+                    <span class="card_title">Social Media <br> Followers</span>
+                    <p class="card_text">The increase in social media followers <br>your campaign has generated.</p>  
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide">
+                    <div class="card_image">
+                      <img src="Page 3/Rectangle (8).png"/>
+                    </div>
+
+                    <div class="card_content">
+                    <span class="card_title">Leads and<br> Sales</span>
+                    <p class="card_text">The number of leads and sales <br> your campaign has generated.</p>  
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide">
+                    <div class="card_image">
+                      <img src="Page 3/Rectangle (9).png"/>
+                    </div>
+
+                    <div class="card_content">
+                    <span class="card_title">Brand<br> Awareness</span>
+                    <p class="card_text">The impact your campaign has had <br>on increasing brand recognition and<br> awareness.</p>  
+                    </div>
+                  </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+    <div class="swiper-slide-prev"></div>
+    <div class="swiper-pagination"></div>
+              </div>
+                
+    <div class="section4">
+      <h1>CREATE CAMPAIGN</h1>
+
+      <div style="margin: auto 45%;">
+        <img src="Page4/Rectangle.png"/>
+      </div>
+      <div style="margin: auto 35%;">
+        <img src="Page4/Rectangle (1).png"/>
+        <img style="margin-top: -80%;margin-left: 35%;" src="Page4/Rectangle (2).png"/>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="section5">
+    
+
+    <div class="container1" style="display: flex;">
+    <div class="tabs">
+      <div class="div5img">
+        <img  src="page5/wavys_Bus.png"/>  
+        </div>
+      <div id="tab1" class="tab active" onclick="showSection(1)"><img src="page5/campaign 1.png" />Select campaign types</div>
+      <div id="tab2" class="tab" onclick="showSection(2)"> <img src="page5/marketing (1) 1.png"/>Select data fields to be collected</div>
+      <div id="tab3" class="tab" onclick="showSection(3)"><img src="page5/hourglass 1.png"/>Select Duration od campaign</div>
+      <div id="tab4" class="tab" onclick="showSection(4)"><img src="page5/communicate 1.png"/>Contact details</div>
+      <div id="tab5" class="tab" onclick="showSection(5)"><img src="page5/flag 1.png"/>Completed</div>
+  </div>
+
+  <div class="content">
+      <div id="section1" class="section_5 active">
+        <h1>Select campaign types</h1>
+        <div class="row">
+          <div class="col-xl-4"><p><img  src="page5/person1.png" /></p><span class="spamm">Pictivate</span></div>
+          <div class="col-xl-4"><p><span><img src="page5/person2.png"/></p></span> <span class="spamm">Pledge</span></div>
+          <div class="col-xl-4"><p><img src="page5/person3.png"/></p>  <span class="spamm">Survey</span></div>
+          <div class="col-xl-4"><p><img src="page5/person4.png"/></p>  <span class="spamm">Quiz</span></div>
+          <div class="col-xl-4"><p><img src="page5/person5.png"/></p>  <span class="spamm">Video based <br class="spamm">Quiz</span></div>
+          <div class="col-xl-4"><p><img src="page5/person6.png"/></p>  <span class="spamm">Gamification</span></div>
+          <div class="col-xl-4"><p><img src="page5/person7.png" /></p> <span class="spamm">Eductional</span></div>
+          
+      </div>
+      <button onclick="nextSection()" style="margin-top: -15px;">Next</button>
+      
+      </div>
+
+      <div id="section2" style="height: 750px; padding: 40px;" class="section_5">
+        <h1>SELECT DATA FIELDS TO BE COLLECTED</h1>
+        <div class="row">
+          <div class="col-xl-4"><p><img src="page5/section5_1.png"/></p><span class="spamm">Impression</span></div>
+          <div class="col-xl-4"><p><img src="page5/section5_2.png"/></p><span class="spamm">Engagement</span></div>
+          <div class="col-xl-4"><p><img src="page5/section5_3.png"/></p><span class="spamm">Social Media Followers</span></div>
+          <div class="col-xl-4"><p><img src="page5/section5_4.png"/></p><span class="spamm">Leads and Sales</span></div>
+          <div class="col-xl-4"><p><img src="page5/section5_5.png"/></p><span class="spamm">Brand Awarness</span></div>
+          <div class="col-xl-4"><p><img src="page5/section5_6.png"/></p><span class="spamm">Analytics + Leaderboard</span></div>
+          </div class="row">
+          <button onclick="nextSection()">Next</button>
+      </div>
+
+      <div id="section3" class="section_5">
+          <h1>SELECT DURATION OF CAMPAIGN</h1>
+         <p class="section3_p">Pick a time</p>
+         <input type="number" class="numberr" value="12" id="quantity" name="quantity" min="1" max="20">
+
+         <div class="calendar-container">
+          <header class="calendar-header">
+              <p class="calendar-current-date"></p>
+              <div class="calendar-navigation">
+                  <span id="calendar-prev"
+                        class="material-symbols-rounded">
+                      chevron_left
+                  </span>
+                  <span id="calendar-next"
+                        class="material-symbols-rounded">
+                      chevron_right
+                  </span>
+              </div>
+          </header>
+      
+          <div class="calendar-body">
+              <ul class="calendar-weekdays">
+                  <li>Sun</li>
+                  <li>Mon</li>
+                  <li>Tue</li>
+                  <li>Wed</li>
+                  <li>Thu</li>
+                  <li>Fri</li>
+                  <li>Sat</li>
+              </ul>
+              <ul class="calendar-dates"></ul>
+          </div>
+      </div>
+      <button onclick="nextSection()">SEND</button>
+      </div>
+
+      <div id="section4" class="section_5 ">
+          <h1>CONTACT DETAILS</h1>
+          <p>Name</p>
+          <input type="text" class="input_text">
+
+          <p>Contact No.</p>
+          <input type="text" class="input_text">
+          <p>Purpose of campaign</p>
+          <input type="textarea" class="input_text_1">
+          <div class="get_img">
+          <img src="page5/Get in touch 1.png"/>
+          </div>
+          <button onclick="nextSection()">Next</button>
+      </div>
+
+      <div id="section5" class="section_5 ">
+          <h1>ACTIVATR TEAM WILL REACHOUT SOON</h1>
+          <div>
+          <img style="margin: auto 15%; background-color: #3D159F; border-radius: 30px;" src="page5/8687243-removebg-preview 1.png"/>
+        </div>
+        <div>
+          <button onclick="nextSection()">DONE</button>
+        
+        </div>
+        
+      </div>
+     
+      
+  </div>
+
+</div>
+
+  </div>
+  <div class="section6">
+    <div class="row">
+      <div class="col" style="margin-top: -2%;margin-left: -10px;">
+        <img src="activatr logo- white 1.png"/>
+      </div>
+      <div class="col-md-6" style="padding-left: 150px;">
+        <p><a href="#" class="fa-fa-message"></a> contact@vistaardigital.com</p>
+        <br>
+        <p><a href="#" class="fa fa-instagram"></a>vistaardigital</p>
+      </div>
+      <div class="col-md-6" style="padding:2%;">
+        <p style=" font-family: 'Kanit', sans-serif; font-weight: 400; font-size: 24px;">Paras Business Center, Unit 602,<br> Kasturbha Cross Rd Number 1, 
+          Near Kasturbha Police Station,<br> Borivali East, Mumbai 400066,
+           MH, India.</p>
+      </div>
+
+    </div>
+    <hr style="border: 2px solid #ffff; color: #ffff; margin-top: -1%;">
+    <div class="pp">
+      <p  class="pp" style="text-align: center;margin-top: -15px;">2018 © Copyright Vistaar Digital. All rights Reserved. Platform By Vistaardigital</p>
+    </div>
+    
+  </div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+ crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <script src="index.js"></script>
+
+</html>
